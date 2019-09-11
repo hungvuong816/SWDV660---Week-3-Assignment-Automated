@@ -1,0 +1,7 @@
+def bitcoin_converter():
+        print("as of 1/17/18 at 10:30 pm, bitcoin is currently trading at $11519 per bitcoin.")
+        number_of_bitcoin = float(input("Enter the bitcoin amount: "))
+        bitcoin_in_us_dollars = number_of_bitcoin * 11519
+        print("That is worth", bitcoin_in_us_dollars ,"us dollars")
+        
+bitcoin_converter()
